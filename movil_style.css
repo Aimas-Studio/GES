@@ -1,0 +1,248 @@
+@media screen and (max-width: 500px) {
+    h3 {
+        font-weight: bolder;
+        margin: 1rem;
+    }
+
+    .Movil-Version {
+        display: block;
+    }
+
+    .header-text h1 {
+        position: relative;
+        font-size: 2.2rem;
+        color: white;
+    }
+
+    .header-text {
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        height: 83%;
+        margin-bottom: 0rem;
+        padding: 0 2.3rem;
+    }
+
+    #dots {
+        position: absolute;
+        bottom: 67%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .dot {
+        display: inline-block;
+        width: 0.5rem;
+        height: 0.5rem;
+        border: 1px solid #ffffff;
+        transition: background 0.5s ease;
+        border-radius: 50%;
+        margin: 0 0.4rem;
+    }
+
+
+
+    nav {
+        display: flex;
+        padding: 1rem 2rem;
+        height: 8%;
+    }
+
+    #slider {
+        height: 35vh;
+    }
+
+    .mision-vision-container {
+        display: flex;
+        flex-direction: column;
+        height: 70%;
+        padding: 0;
+    }
+
+    .button-mision-vision {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    .button-container-mision-vision {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .button-container-mision-vision .text-button {
+        width: 80%;
+        border-radius: 5px;
+    }
+
+    .button-container-mision-vision .text-button p {
+        margin: 0.8rem 0;
+        font-size: 0.78rem !important;
+    }
+
+    .button-container-mision-vision .text-button p::before {
+        height: 1rem;
+    }
+
+    .button-container-mision-vision .send-button {
+        margin-top: 1rem;
+        width: 30%;
+        padding: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-lines: 1;
+        font-size: 0.8rem;
+        border-radius: 5px;
+    }
+
+
+    .mision-vision-container img {
+        width: 100%;
+    }
+
+    .MisionVisionSection {
+        height: min-content;
+        padding: 2rem 0;
+    }
+
+    .subsection-container {
+        margin: 2rem 0;
+        border: 1px #ffffff solid;
+        width: 80%;
+        height: 33.3%;
+    }
+
+    .subsection-image-nosotros {
+        height: 120px;
+        width: 100%;
+        background-image: url('assets/Header3.jpg');
+        background-position: 0 -35;
+        background-size: cover;
+    }
+
+    .subsection-image-mision {
+        height: 120px;
+        width: 100%;
+        background-image: url('assets/Header2.jpg');
+        background-position: 0 -35;
+        background-size: cover;
+    }
+
+    .subsection-image-vision {
+        height: 120px;
+        width: 100%;
+        background-image: url('assets/Header1.jpg');
+        background-position: 0 -35;
+        background-size: cover;
+    }
+
+    .subsection-text {
+        border-top: 1px #ffffff solid;
+    }
+
+    .subsection-text h3 {
+        font-size: 1.2rem !important;
+    }
+
+    .gaviota {
+        margin: 1rem;
+    }
+
+    .center-p {
+        font-size: 0.8rem;
+        line-height: 110%;
+    }
+
+    .subsection-info {
+        padding: 0 3%;
+    }
+
+
+
+
+
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        height: min-content;
+        font-size: 0.5rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer {
+        height: min-content;
+        background-image: url('assets/FooterMovil.jpg');
+        background-size: cover;
+    }
+
+    footer p {
+        font-size: 0.9rem !important;
+        margin: 0.2rem 0;
+    }
+
+    .row1-especial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+        margin-top: 3rem;
+        height: min-content;
+
+    }
+
+    .row1-especial p {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .row1-especial img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .rights-reserve {
+        margin-top: 0;
+        height: min-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+
+    .rights-reserve::before {
+        display: none;
+    }
+
+    .linea {
+        content: '';
+        background-color: #ffffff;
+        height: 1px;
+        margin: 2rem 0 0 0;
+        width: 100%;
+    }
+
+    .rights-reserve p {
+        font-size: 0.5rem !important;
+        text-align: center;
+        margin-top: 0.5rem;
+        font-weight: 100;
+    }
+
+    .label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+
+    }
+
+    .button-footer {
+        display: none;
+    }
+
+}
